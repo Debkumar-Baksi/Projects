@@ -88,14 +88,17 @@ void  admitPatient(){
     printf("Enter Patient Name : ");
     fflush(stdin);
     fgets(p.patientname,50,stdin);
+    p.patientname[strcspn(p.patientname, "\n")] = '\0';
 
     printf("Enter Patient's Address : ");
     fflush(stdin);
     fgets(p.patientaddress,50,stdin);
+    p.patientaddress[strcspn(p.patientaddress, "\n")] = '\0';
 
     printf("Enter Patient Disease : ");
     fflush(stdin);
     fgets(p.disease,50,stdin);
+    p.disease[strcspn(p.disease, "\n")] = '\0';
 
     printf("PATIENT ADDED SUCCESSFULLY...");
 
@@ -189,14 +192,17 @@ void addDoctor(){
     printf("Enter Doctor's Name : ");
     fflush(stdin);
     fgets(d.name,50,stdin);
+    d.name[strcspn(d.name, "\n")] = '\0';
 
     printf("Enter Doctor's Address : ");
     fflush(stdin);
     fgets(d.address,50,stdin);
+    d.address[strcspn(d.address, "\n")] = '\0';
 
     printf("Doctor Specialize in : ");
     fflush(stdin);
     fgets(d.specialize,50,stdin);
+    d.specialize[strcspn(d.specialize, "\n")] = '\0';
 
     printf("DOCTOR ADDED SUCCESSFULLY . . .");
 
