@@ -15,23 +15,24 @@
   <h2>Projects</h2>
     <ul>
         <li>
-            <strong>Description:</strong> This project provides a Hospital Management System implemented in C language. It offers features such as adding patients, discharging patients, adding doctors, and more. 💼
+            <strong>Description:</strong> This project provides a Hospital Management System implemented in C language. It offers features such as adding patients, discharging patients, adding doctors, and more.
             <br>
             <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/Hospital_Management_System.c">Hospital Management System</a>
         </li>
 
- <!-- <li>
-            <strong>Description:</strong> [Brief description of the project]
+ <li>
+            <strong>Description:</strong> QR Code generator using Python of any given URL with colour customisation
             <br>
-            <strong>Repository:</strong> [Link to the repository]
+            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/QRCode.py">QR Code Generator</a>
   </li>
-
+ <!--
   <li>
             <strong>Description:</strong> [Brief description of the project]
             <br>
-            <strong>Repository:</strong> [Link to the repository]
+            <strong>Repository:</strong> <a href="[link to your project code]">[Project Name]</a>
   </li>
-  </ul> -->
+  -->
+  </ul> 
 
   <h2>Usage</h2>
     <p>To explore any of the projects, simply click on the repository link provided. Each project repository contains detailed instructions on how to set up, run, and contribute to the project. 📝</p>
