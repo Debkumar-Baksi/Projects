@@ -22,6 +22,7 @@ void patientList();
 void dischargePatient();
 void addDoctor();
 void doctorList();
+void dischargeDoctor();
 
 
 FILE *fp;
@@ -36,6 +37,7 @@ while(1){
     printf("3.Discharge Patient\n");
     printf("4.Add Doctor\n");
     printf("5.Doctors List\n");
+    printf("6.Discharge Doctor\n");
     printf("0.Exit\n\n");
     printf("Enter your choice : ");
     scanf("%d",&ch);
@@ -57,6 +59,9 @@ while(1){
             break;
         case 5:
             doctorList();
+            break;
+        case 6:
+            dischargeDoctor();
             break;
         default:
             printf("\nInvalid Choice!! Please Enter Again.\n\n");
@@ -228,4 +233,49 @@ void doctorList(){
         printf("%-10d %-30s %-30s %-30s %s\n",d.id , d.name , d.address , d.specialize , d.date);
     }
     fclose(fp);
+}
+
+void dischargeDoctor(){
+    int id , f=0;
+
+    system("cls");
+    printf("<==DISCHARGE DOCTOR==>\n");
+    printf("Enter Doctor Id to be Discharged: ");
+    scanf("%d",&id);
+
+    FILE *ft;
+    fp=fopen("doctor.txt" , "rb");
+    if (fp == NULL) {
+        printf("Error opening doctor file.\n");
+        return;
+    }
+    ft=fopen("temp.txt" , "wb");
+    if (ft == NULL) {
+        printf("Error opening temporary file.\n");
+        fclose(fp);
+        return;
+    }
+
+
+    while(fread(&d , sizeof(d) , 1 , fp)==1) {
+        if (id == d.id){
+            f=1;
+        }
+        else{
+            fwrite( &d , sizeof(d) , 1, ft );
+        }
+    }
+
+    if(f==1){
+        printf("\n\nDOCTOR DISCHARGED SUCCESSFULLY . . .");
+    }
+    else{
+        printf("\n\nNO RECORDS FOUND . . .");
+    }
+
+    fclose(fp);
+    fclose(ft);
+
+    remove( "doctor.txt") ;
+    rename ("temp.txt" , "doctor.txt" ) ;
 }
