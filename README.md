@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects Repository README</title>
 </head>
 
 <body>
@@ -44,7 +43,7 @@
     <p>Unless otherwise stated in the individual project repositories, all projects in this repository are licensed under the MIT License. 📜</p>
 
   <h2>Contact</h2>
-    <p>For any inquiries or feedback regarding the projects or this repository, please feel free to reach out to <a href="https://github.com/Debkumar-Baksi">Debkumar Baksi</a> at <a href="mailto:sg383332@gmail.com">Send me an email</a>
+    <p>For any inquiries or feedback regarding the projects or this repository, please feel free to reach out to <a href="https://github.com/Debkumar-Baksi">Debkumar Baksi</a> at <a href="sg383332@gmail.com">sg383332@gmail.com</a>
  . 📧</p>
 </body>
 
