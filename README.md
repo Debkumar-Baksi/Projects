@@ -24,13 +24,21 @@
             <br>
             <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/QRCode.py">QR Code Generator</a>
   </li>
- <!--
+ 
+  <li>
+            <strong>Description:</strong> The BMI calculator project in Python is a simple tool that calculates the Body Mass Index based on user inputs of weight and height. It provides an easy way to assess whether an individual has a healthy body weight relative to their height.
+            <br>
+            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/BMI_Calculator.py">BMI Calculator</a>
+  </li>
+
+   <!--
   <li>
             <strong>Description:</strong> [Brief description of the project]
             <br>
             <strong>Repository:</strong> <a href="[link to your project code]">[Project Name]</a>
   </li>
   -->
+  
   </ul> 
 
   <h2>Usage</h2>
