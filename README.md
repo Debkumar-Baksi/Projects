@@ -16,7 +16,7 @@
         <li>
             <strong>Description:</strong> This project provides a Hospital Management System implemented in C language. It offers features such as adding patients, discharging patients, adding doctors, and more.
             <br>
-            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/Hospital_Management_System.c">Hospital Management System</a>
+            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Hospital_Management_System">Hospital Management System</a>
         </li>
 
  <li>
