@@ -34,7 +34,7 @@
   <li>
             <strong>Description:</strong> A Python password generator creates secure, random passwords, ensuring strong protection by combining letters, numbers, and special characters. It includes a convenient feature that allows users to copy the generated password directly to the clipboard, making it easy to use immediately. The tool can be implemented with a graphical interface using `Tkinter` or as a command-line utility, offering both flexibility and user-friendly functionality.
             <br>
-            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/Password_Generator.py">Password Generator</a>
+            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Password-Generator">Password Generator</a>
   </li>
 
 
