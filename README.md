@@ -42,9 +42,18 @@
   <li>
             <strong>Description:</strong> A weather software in Python that fetches real-time weather data for any location using an API. The application displays current conditions like temperature, humidity, and wind speed in a user-friendly interface. This project showcases my skills in Python programming, API integration, and data visualization.
             <br>
-            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/weather_app.py">Weather Software</a>
+            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Weather-Software/tree/main">Weather Software</a>
   </li>
 
+  <!--
+  <li>
+            <strong>Description:</strong> [Brief description of the project]
+            <br>
+            <strong>Repository:</strong> <a href="[link to your project code]">[Project Name]</a>
+  </li>
+  -->
+
+  
   <!--
   <li>
             <strong>Description:</strong> [Brief description of the project]
