@@ -22,7 +22,7 @@
  <li>
             <strong>Description:</strong> QR Code generator using Python of any given URL with colour customisation
             <br>
-            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/Projects/blob/main/QRCode.py">QR Code Generator</a>
+            <strong>Repository:</strong> <a href="https://github.com/Debkumar-Baksi/QR-Code-Generator">QR Code Generator</a>
   </li>
  
   <li>
